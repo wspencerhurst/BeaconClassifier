@@ -1,1 +1,1 @@
-### Note: by default the dataset downloads to /home/"username"/.cache/kagglehub/agungpambudi. Move it to /data.
+### 1. Run data/download_data.py to download the "network-malware-detection-connection-analysis" dataset.
