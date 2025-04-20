@@ -1,0 +1,13 @@
+# Core data tools
+pandas>=2.0
+numpy>=1.24
+pyarrow>=12.0
+tqdm>=4.66
+
+# Machine learning
+scikit-learn>=1.3
+xgboost>=2.0
+joblib>=1.3
+
+# For future extension
+shap>=0.44  # for feature explainability
