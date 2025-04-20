@@ -1,5 +1,11 @@
 *.csv
 *.complete
+*.joblib
+*.parquet
+reports/
+*.log
+*.tmp
+*.bak
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
