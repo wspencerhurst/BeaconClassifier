@@ -71,8 +71,27 @@ python scripts/evaluate.py \
 * Outputs a CSV with each row’s predicted class (`pred`) and probability (`proba`).  
 * Saves metrics to `artifacts/xgb_baseline/eval_metrics.json`.
 
+## 6  Step 4 – Generate visualizations
 
-## 6  Next steps
+```bash
+python scripts/plot_metrics.py \
+    --model-dir artifacts/xgb_sample \
+    --test-data artifacts/iot23_features.parquet \
+    --output-dir reports \
+    --sample 100000
+```
+
+This will create:
+
+| Plot file | Description |
+|-----------|-------------|
+| `confusion_matrix.png` | 2×2 plot of true/false positives/negatives |
+| `roc_curve.png` | Shows model discrimination power across thresholds |
+| `feature_importance.png` | Top 20 features ranked by XGBoost gain |
+
+These are automatically saved to the `reports/` folder.
+
+## 7  Next steps
 
 1. **Memory** – switch XGBoost’s `tree_method` to `hist` and remove the sample cap when you want to train on all 25 M rows.
 2. **Feature importance** – load `model.joblib` in a notebook and call `model.get_booster().get_score(importance_type="gain")`.
