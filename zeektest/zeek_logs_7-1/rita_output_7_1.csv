@@ -1,0 +1,11 @@
+Viewing database: mydatabase_7_1
+Severity,Source IP,Destination IP,FQDN,Beacon Score,Strobe,Total Duration,Long Connection Score,Subdomains,C2 Over DNS Score,Threat Intel,Prevalence,First Seen,Missing Host Header,Connection Count,Total Bytes,Port:Proto:Service,Modifiers
+High,192.168.100.108,147.231.100.5,,0.998,false,55.095726,0,0,0,false,0.5,1 hour ago,false,88,14744,"123:udp:ntp",""
+Medium,192.168.100.108,89.221.210.188,,0.966,false,55.333786,0,0,0,false,0.5,1 hour ago,false,78,13224,"123:udp:ntp",""
+Medium,192.168.100.108,81.2.248.189,,0.964,false,56.993538,0,0,0,false,0.5,1 hour ago,false,78,13224,"123:udp:ntp",""
+Medium,192.168.100.108,46.28.110.244,,0.955,false,52.22613,0,0,0,false,0.5,1 hour ago,false,77,13072,"123:udp:ntp",""
+Medium,192.168.100.108,81.200.60.11,,0.944,false,79.88979,0,0,0,false,0.5,1 hour ago,false,76,12768,"123:udp:ntp",""
+Medium,192.168.100.108,37.157.198.150,,0.944,false,53.152016,0,0,0,false,0.5,1 hour ago,false,76,12920,"123:udp:ntp",""
+Medium,192.168.100.108,212.96.160.147,,0.942,false,82.95066,0,0,0,false,0.5,1 hour ago,false,76,12920,"123:udp:ntp",""
+Medium,192.168.100.108,185.130.215.13,,0.902,false,918.7945,0,0,0,false,0.5,1 hour ago,false,949,113640,"57722:tcp:",""
+None,192.168.100.108,80.79.25.111,,0.498,false,48.84611,0,0,0,false,0.5,1 hour ago,false,8,2584,"123:udp:ntp",""
