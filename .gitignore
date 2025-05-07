@@ -6,6 +6,8 @@ reports/
 *.log
 *.tmp
 *.bak
+*.gz
+*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
